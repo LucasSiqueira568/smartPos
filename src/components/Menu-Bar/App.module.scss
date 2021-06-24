@@ -1,0 +1,26 @@
+.menuBar {
+    height: 100vh;
+    width: 20vw;
+    background-color: yellow;
+
+    .menuHeader {
+        ul {
+            margin-top: 10%;
+            
+            li {
+                background-color: red;
+                margin: 2px;
+                padding: 5px;
+
+                a {
+                    color: #000;
+                    border-radius: 5px;
+
+                }
+            }
+
+            
+        }
+    }
+}
+
