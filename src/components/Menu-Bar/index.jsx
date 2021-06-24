@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './App.module.scss'
+import MenuUser from '../Menu-User'
 
 
 export default function MenuBar() {
@@ -14,6 +15,7 @@ export default function MenuBar() {
                     <li><a href="/">Configurações</a></li>
                 </ul>
             </header>
+            <MenuUser />
         </div>
     )
 }
